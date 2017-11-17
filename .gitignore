@@ -1,0 +1,26 @@
+### Vim ###
+# swap
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-v][a-z]
+[._]sw[a-p]
+# session
+Session.vim
+session/
+# temporary
+.netrwhist
+*~
+# auto-generated tag files
+tags
+
+# USER STUFF
+spell/
+
+# also bundle, since plugins are in init.vim itself
+bundle/ 
+
+# old version of vim-plug
+autoload/plug.vim.old
+
+# End of https://www.gitignore.io/api/vim,neovim
+
